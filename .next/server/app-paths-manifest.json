@@ -1,7 +1,4 @@
 {
-  "/(route)/details/[recordId]/page": "app/(route)/details/[recordId]/page.js",
   "/(route)/my-booking/page": "app/(route)/my-booking/page.js",
-  "/api/auth/[kindeAuth]/route": "app/api/auth/[kindeAuth]/route.js",
-  "/page": "app/page.js",
-  "/(route)/search/[cname]/page": "app/(route)/search/[cname]/page.js"
+  "/page": "app/page.js"
 }

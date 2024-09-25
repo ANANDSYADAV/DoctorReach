@@ -1,4 +1,4 @@
-// File: C:\Users\anand\Desktop\DoctorAppointment\Client\app\api\auth\[kindeAuth]\route.js
+// File: C:\Users\anand\Desktop\FrontEnd\Client\app\api\auth\[kindeAuth]\route.js
 import * as entry from '../../../../../../app/api/auth/[kindeAuth]/route.js'
 import type { NextRequest } from 'next/server.js'
 

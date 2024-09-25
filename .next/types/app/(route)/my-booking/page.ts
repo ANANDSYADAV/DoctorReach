@@ -1,4 +1,4 @@
-// File: C:\Users\anand\Desktop\DoctorAppointment\Client\app\(route)\my-booking\page.jsx
+// File: C:\Users\anand\Desktop\FrontEnd\Client\app\(route)\my-booking\page.jsx
 import * as entry from '../../../../../app/(route)/my-booking/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

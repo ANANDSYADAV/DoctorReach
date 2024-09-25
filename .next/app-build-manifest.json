@@ -1,30 +1,15 @@
 {
   "pages": {
-    "/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
-    ],
     "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/(route)/search/layout": [
+    "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(route)/search/layout.js"
-    ],
-    "/(route)/search/[cname]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(route)/search/[cname]/page.js"
-    ],
-    "/(route)/details/[recordId]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(route)/details/[recordId]/page.js"
+      "static/chunks/app/page.js"
     ],
     "/(route)/my-booking/page": [
       "static/chunks/webpack.js",
