@@ -133,8 +133,7 @@ function BookAppointment({ doctor }) {
                 Close
               </Button>
               <Button type="button" disabled={!(date && selectedTimeSlot)}
-                onClick={() => saveBooking()}
-              >
+                onClick={() => saveBooking()}>
                 Submit
               </Button>
             </>
