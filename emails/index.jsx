@@ -18,6 +18,7 @@ const baseUrl = process.env.VERCEL_URL
   ? `https://${process.env.VERCEL_URL}`
   : "http://localhost:3000";
 
+// Template of sample email
 export const EmailTemplate = ({
   UserName,
   Email,
