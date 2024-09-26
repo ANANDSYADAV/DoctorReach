@@ -51,6 +51,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+<<<<<<< HEAD
 /***/ "(ssr)/./node_modules/@radix-ui/react-dialog/dist/index.mjs":
 /*!************************************************************!*\
   !*** ./node_modules/@radix-ui/react-dialog/dist/index.mjs ***!
@@ -61,6 +62,8 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+=======
+>>>>>>> 9caa72aac8f211ff4780c3006205ee958f641ed3
 /***/ "(ssr)/./node_modules/@radix-ui/react-dismissable-layer/dist/index.mjs":
 /*!***********************************************************************!*\
   !*** ./node_modules/@radix-ui/react-dismissable-layer/dist/index.mjs ***!

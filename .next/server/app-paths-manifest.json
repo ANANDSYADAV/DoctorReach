@@ -1,6 +1,12 @@
 {
+<<<<<<< HEAD
   "/page": "app/page.js",
   "/(route)/details/[recordId]/page": "app/(route)/details/[recordId]/page.js",
   "/api/auth/[kindeAuth]/route": "app/api/auth/[kindeAuth]/route.js",
   "/(route)/search/[cname]/page": "app/(route)/search/[cname]/page.js"
+=======
+  "/api/auth/[kindeAuth]/route": "app/api/auth/[kindeAuth]/route.js",
+  "/page": "app/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
+>>>>>>> 9caa72aac8f211ff4780c3006205ee958f641ed3
 }

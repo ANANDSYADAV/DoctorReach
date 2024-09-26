@@ -19,11 +19,11 @@ function DoctorSuggestionList() {
     <div className=' p-4 border-[1px] mt-5 md:ml-5 rounded-lg '>
       <h2 className='mb-3 font-bold'>Suggestions</h2>
 
-      {doctorList.map((doctor, index) => (
+      {doctorList?.map((doctor, index) => (
         <Link href={'/details/' + doctor.id} className=' mb-4 p-3 shadow-sm w-full 
             cursor-pointer hover:bg-slate-100
-            rounded-lg flex items-center gap-3'>
-          <Image src={doctor.attributes?.image?.data?.attributes?.url}
+            rounded-lg flex items-center gap-3' key={index}>
+          <Image src={doctor?.attributes?.image?.data?.attributes?.url}
             width={70}
             height={70}
             className='w-[70px] h-[70px] rounded-full object-cover'
