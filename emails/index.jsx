@@ -19,6 +19,7 @@ const baseUrl = process.env.VERCEL_URL
   : "http://localhost:3000";
 
 // Template of sample email
+// Will be sent to the user
 export const EmailTemplate = ({
   UserName,
   Email,
