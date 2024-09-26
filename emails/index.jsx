@@ -33,30 +33,32 @@ export const EmailTemplate = ({
     </Preview>
     <Body style={main}>
       <Container style={container}>
-        <Img
-          src={`${baseUrl}/logo.svg`}
+        <h1>DoctorReach</h1>
+        {/* <Img
+          src={`${baseUrl}/DoctorReach.png`}
           width="170"
           height="50"
-          alt="Koala"
+          alt="Applogo"
           style={logo}
-        />
+        /> */}
         <Text style={paragraph}>Hi {UserName},</Text>
         <Text style={paragraph}>
-          Your Appointment with Doctor has booked on {Date} at {Time}
+          Your Appointment with Doctor has booked on {Date.slice(0, 10)} at {Time}
         </Text>
-        {/* <Section style={btnContainer}>
-            <Button style={button} href="https://getkoala.com">
-              Get started
+        <Section style={btnContainer}>
+          <Text>Check all your booking details</Text>
+            <Button style={button} href="https://doctor-reach.vercel.app/my-booking">
+              My Bookings
             </Button>
-          </Section> */}
+          </Section>
         <Text style={paragraph}>
-          Best,
+          Warm Regards,
           <br />
-          Tubeguruji App
+          DoctorReach
         </Text>
         <Hr style={hr} />
         <Text style={footer}>
-          Developed by TubeGuruji!
+          Developed by MedTechPlus
         </Text>
       </Container>
     </Body>
