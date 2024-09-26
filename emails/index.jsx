@@ -34,23 +34,16 @@ export const EmailTemplate = ({
     <Body style={main}>
       <Container style={container}>
         <h1>DoctorReach</h1>
-        {/* <Img
-          src={`${baseUrl}/DoctorReach.png`}
-          width="170"
-          height="50"
-          alt="Applogo"
-          style={logo}
-        /> */}
         <Text style={paragraph}>Hi {UserName},</Text>
         <Text style={paragraph}>
           Your Appointment with Doctor has booked on {Date.slice(0, 10)} at {Time}
         </Text>
         <Section style={btnContainer}>
           <Text>Check all your booking details</Text>
-            <Button style={button} href="https://doctor-reach.vercel.app/my-booking">
-              My Bookings
-            </Button>
-          </Section>
+          <Button style={button} href="https://doctor-reach.vercel.app/my-booking">
+            My Bookings
+          </Button>
+        </Section>
         <Text style={paragraph}>
           Warm Regards,
           <br />
